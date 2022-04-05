@@ -111,3 +111,23 @@ span {
     padding: 8px 18px;
     text-align: center;
 }
+
+.pink-button {
+    border: none;
+    border-radius: 15px;
+    background-color: #D863A1;
+    color: white;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    text-align: center;
+}
+
+.limegreen-button {
+    border: none;
+    border-radius: 15px;
+    background-color: #B0C926;
+    color: white;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    text-align: center;
+}
