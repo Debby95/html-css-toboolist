@@ -37,24 +37,18 @@
     text-align: center;
 }
 
-.arrow::before {
+.h2::before {
     content: "\25BC";
 }
 
-.arrow {
+.h2 {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     margin-bottom: 10px;
 }
 
-span {
-    font-size: 20px;
-    vertical-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.button3 {
+.check {
     border: 1px solid #64C0A9;
     border-radius: 20px;
     background-color: white;
@@ -63,27 +57,7 @@ span {
     text-align: center;
 }
 
-.lightblue-button {
-    border: none;
-    border-radius: 15px;
-    background-color: #47ADF1;
-    color: white;
-    margin-bottom: 30px;
-    padding: 8px 18px;
-    text-align: center;
-}
-
-.purple-button {
-    border: none;
-    border-radius: 15px;
-    background-color: #9C72E4;
-    color: white;
-    margin-bottom: 30px;
-    padding: 8px 18px;
-    text-align: center;
-}
-
-.button4 {
+.none {
     border: 1px solid #EB5B54;
     border-radius: 20px;
     background-color: white;
@@ -92,42 +66,68 @@ span {
     text-align: center;
 }
 
-.green-button {
-    border: none;
+.editorial {
+    display: inline-block;
+    background-color: #47ADF1;
+    color: white;
     border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 8px 18px;
+    text-align: center;
+}
+
+.q1-goals {
+    display: inline-block;
+    background-color: #9C72E4;
+    color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 8px 18px;
+    text-align: center;
+}
+
+.recruiting {
+    display: inline-block;
     background-color: #64C0A9;
     color: white;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
     padding: 8px 18px;
     text-align: center;
 }
 
-.orange-button {
-    border: none;
-    border-radius: 15px;
+.mobile {
+    display: inline-block;
     background-color: #F29E33;
     color: white;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
     padding: 8px 18px;
     text-align: center;
 }
 
-.pink-button {
-    border: none;
-    border-radius: 15px;
+.website {
+    display: inline-block;
     background-color: #D863A1;
     color: white;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
     padding: 8px 18px;
     text-align: center;
 }
 
-.limegreen-button {
-    border: none;
-    border-radius: 15px;
+.sales{
+    display: inline-block;
     background-color: #B0C926;
     color: white;
-    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-bottom: 10px;
     padding: 8px 18px;
     text-align: center;
 }
