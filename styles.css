@@ -9,3 +9,105 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
+
+.container {
+    width: 900px;
+    height: 900px;
+    margin: 180px;
+    margin-top: 40px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    background-color: #47ADF1;
+    color: white;
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.button2 {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    color: lightgrey;
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.arrow::before {
+    content: "\25BC";
+}
+
+.arrow {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 20px;
+    vertical-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button3 {
+    border: 1px solid #64C0A9;
+    border-radius: 20px;
+    background-color: white;
+    color: #64C0A9;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.lightblue-button {
+    border: none;
+    border-radius: 15px;
+    background-color: #47ADF1;
+    color: white;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    text-align: center;
+}
+
+.purple-button {
+    border: none;
+    border-radius: 15px;
+    background-color: #9C72E4;
+    color: white;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    text-align: center;
+}
+
+.button4 {
+    border: 1px solid #EB5B54;
+    border-radius: 20px;
+    background-color: white;
+    color: #EB5B54;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+.green-button {
+    border: none;
+    border-radius: 15px;
+    background-color: #64C0A9;
+    color: white;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    text-align: center;
+}
+
+.orange-button {
+    border: none;
+    border-radius: 15px;
+    background-color: #F29E33;
+    color: white;
+    margin-bottom: 30px;
+    padding: 8px 18px;
+    text-align: center;
+}
