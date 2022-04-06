@@ -37,7 +37,7 @@
     text-align: center;
 }
 
-.h2::before {
+h2::before {
     content: "\25BC";
 }
 
